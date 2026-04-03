@@ -43,3 +43,11 @@
                 proxy_set_header Host $host;
                 proxy_cache_bypass $http_upgrade;
             }
+
+# Adding a custom domain name
+
+    - purchased domain name (ex: godaddy)
+    - signup on cloudfare and add a new domain name
+    - change the nameservers on godaddy and point it to cloudfare
+    - wait for some time till nameservers are updated
+    - DNS record: A mocktinder.in <ip:address>

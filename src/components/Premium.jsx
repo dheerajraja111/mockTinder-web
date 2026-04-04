@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BASE_URL } from "../utils/constants";
 
 const Premium = () => {
@@ -14,6 +14,10 @@ const Premium = () => {
       setIsUserPremium(true);
     }
   };
+
+  useEffect(() => {
+    verifyPremiumUser();
+  }, []);
 
   const handleBuyClick = async (type) => {
     try {

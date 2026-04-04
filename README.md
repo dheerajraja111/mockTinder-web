@@ -51,3 +51,19 @@
     - change the nameservers on godaddy and point it to cloudfare
     - wait for some time till nameservers are updated
     - DNS record: A mocktinder.in <ip:address>
+
+# RazorPay Integration
+
+    - RazorPay signup and complete KYC
+    - Created UI for premium
+    - Create API for create order in backend
+    - Added key and secret in env file
+    - Initialized Razor pay in utils
+    - Creating order on razor pay
+    - create schema and model
+    - saved the order in payment collection
+    - Setup razorpay webhook
+    - Ref: https://github.com/razorpay/razorpay-node/tree/master/documents
+    - Ref: https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/integrate-with-razorpay-payment-gateway
+    - Ref: https://razorpay.com/docs/webhooks/validate-test/
+    - Ref: https://razorpay.com/docs/webhooks/payloads/payments/

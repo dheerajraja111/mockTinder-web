@@ -67,3 +67,13 @@
     - Ref: https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/integrate-with-razorpay-payment-gateway
     - Ref: https://razorpay.com/docs/webhooks/validate-test/
     - Ref: https://razorpay.com/docs/webhooks/payloads/payments/
+
+# Real time chat using web socket (socket.io)
+
+    - Setup socket.io in backend
+    - npm i socket.io
+    - Setup socket in frontend
+    - npm i socket.io-client
+    - Initialize the chat
+    - createSocketConnection
+    - Listen to events
